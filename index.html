@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/tim-logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="index.js" defer></script>
+    <script src="particles.js" defer></script>
+    <script src="app.js" defer></script>
+    <title>Timmy</title>
+  </head>
+  <body>
+    <!-- <div class="introduction visible">
+        <div class="hello"><h2>HELLO THERE,</h2></div>
+        <div class="what">
+            <p>I'm TIMMY</p>
+        </div>
+    </div> -->
+
+    <main>
+      <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+          <div class="container">
+            <a href="#" class="navbar-brand text-uppercase font-weight-bold"
+              >TIM</a
+            >
+            <button
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              class="navbar-toggler navbar-toggler-right"
+            >
+              <i class="fa fa-bars"></i>
+            </button>
+
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active mr-2">
+                  <a href="#" class="nav-link text-uppercase font-weight-bold"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item mr-2">
+                  <a href="#about-me" class="nav-link text-uppercase font-weight-bold"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#projects" class="nav-link text-uppercase font-weight-bold"
+                    >Projects</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div id="particles-js">
+        <section class="desc-section">
+          <div class="desc-left">
+            <div><h2>Hi, I am TIMMY</h2></div>
+            <p>
+              <span
+                class="my-desc txt-type"
+                data-wait="3000"
+                data-words='["FULLSTACK DEVELOPER", "WORDPRESS DESIGNER"]'
+              ></span>
+            </p>
+            <span><a href="mailto:oktimmy45@gmail.com"> Hire Me </a></span>
+          </div>
+          <div class="desc-right">
+            <img src="./assets/timmy.jpg" alt="my-image" />
+          </div>
+        </section>
+      </div>
+
+      <section class="about-me" id="about-me">
+        <div class="about-left" data-aos="fade-right" data-aos-duration="1500">
+          <h2>ABOUT ME</h2>
+          <hr />
+          <div>
+            <p class="">
+              Hello, I am a young, hardworking and responsible lad. I have been
+              coding since my early teenage years. I enjoy writing code.
+            </p>
+            <p class="">
+              I have experience using both
+              <span style="color: #61dbfb">frontend</span> and
+              <span style="color: #3c873a">backend</span> technologies to build
+              beautiful, responsive and fuctional web apps
+            </p>
+            <p class="">
+              Leaving my clients impressed and delivering quality service are my
+              biggest motivation while writing codes.
+            </p>
+          </div>
+        </div>
+        <div class="about-right">
+          <card class="mycard" data-aos="fade-left" data-aos-duration="1500">
+            <h2>Front-End</h2>
+            <p>
+              Here is a list of stack I use best for creating beautiful layout
+              and designs
+            </p>
+            <ul>
+              <li><span>HTML</span></li>
+              <li><span>CSS</span></li>
+              <li><span>Javascript</span></li>
+              <li><span>Bootstrap</span></li>
+              <li><span>Bulma</span></li>
+              <li><span>Tailwind CSS</span></li>
+              <li><span>SCSS</span></li>
+              <li><span>Material UI</span></li>
+              <li><span>Semantic UI</span></li>
+              <li><span>React Js</span></li>
+            </ul>
+          </card>
+          <card class="mycard" data-aos="fade-left" data-aos-duration="2000">
+            <h2>Back-End</h2>
+            <p>
+              On the backend, I am very much comfortable using the following
+              stacks
+            </p>
+            <ul>
+              <li><span>Nodejs</span></li>
+              <li><span>Expressjs</span></li>
+              <li><span>Javascript</span></li>
+            </ul>
+          </card>
+          <card class="mycard" data-aos="fade-left" data-aos-duration="2500">
+            <h2>Database</h2>
+            <p>Here is a list of database technologies I use effectively</p>
+            <ul>
+              <li><span>Mongo DB</span></li>
+              <li><span>Mongoose</span></li>
+            </ul>
+          </card>
+          <card class="mycard" data-aos="fade-left" data-aos-duration="2500">
+            <h2>Wordpress</h2>
+            <p>
+              Here is a list of technologies I use for creating amazing
+              wordpress websites
+            </p>
+            <ul>
+              <li><span>Wordpress</span></li>
+              <li><span>WooCommerce</span></li>
+              <li><span>Elementor</span></li>
+              <li><span>Divi</span></li>
+            </ul>
+          </card>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="project-content">
+          <card
+            class="project-card"
+            data-aos="fade-right"
+            data-aos-easing="linear"
+            data-aos-duration="2500"
+          >
+            <div class="project-img">
+              <img src="./assets/pw-generator.jfif" alt="" />
+            </div>
+            <div class="project-desc">
+              <h3>Password generator</h3>
+              <p>A Password generator Created with Vanilla Javascript.</p>
+              <div>
+                <span
+                  ><a
+                    target="_blank"
+                    href="https://timmy-password-generator.netlify.app/"
+                    ><i class="fa fa-light fa-link"></i></a
+                ></span>
+                <span
+                  ><a href="https://github.com/ok-timmy/Password-Generator-App"
+                    ><i class="fa fa-brands fa-github"></i></a
+                ></span>
+              </div>
+            </div>
+          </card>
+          <card
+            class="project-card"
+            data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="2500"
+          >
+            <div class="project-img">
+              <img src="./assets/todos.jpg" alt="" />
+            </div>
+            <div class="project-desc">
+              <h3>Todo App</h3>
+              <p>
+                An App built with Javascript that allows users create their
+                todos and also mark it as done when they complete their task
+              </p>
+              <div>
+                <span
+                  ><a target="_blank" href="https://timmy-todo.netlify.app/"
+                    ><i class="fa fa-light fa-link"></i></a
+                ></span>
+                <span
+                  ><a href="https://github.com/ok-timmy/Todo-app"
+                    ><i class="fa fa-brands fa-github"></i></a
+                ></span>
+              </div>
+            </div>
+          </card>
+          <card
+            class="project-card"
+            data-aos="fade-right"
+            data-aos-easing="linear"
+            data-aos-duration="2500"
+          >
+            <div class="project-img">
+              <img src="./assets/weather-app.jfif" alt="" />
+            </div>
+            <div class="project-desc">
+              <h3>Weather App</h3>
+              <p>
+                A simple Weather App built with React JS and OpenWeatherMap API
+              </p>
+              <div>
+                <span
+                  ><a target="_blank" href="https://timmy-weather.netlify.app/"
+                    ><i class="fa fa-light fa-link"></i></a
+                ></span>
+                <span
+                  ><a href="https://github.com/ok-timmy/Notes-App"
+                    ><i class="fa fa-brands fa-github"></i></a
+                ></span>
+              </div>
+            </div>
+          </card>
+
+          <card
+            class="project-card"
+            data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="2500"
+          >
+            <div class="project-img">
+              <img src="./assets/note-app.jfif" alt="" />
+            </div>
+            <div class="project-desc">
+              <h3>Note App</h3>
+              <p>
+                An App where users can sign up and sign in and create, update
+                and delete amazing notes written by them
+              </p>
+              <div>
+                <span
+                  ><a target="_blank" href="https://timmy-notes.netlify.app/"
+                    ><i class="fa fa-light fa-link"></i></a
+                ></span>
+                <span
+                  ><a href=""><i class="fa fa-brands fa-github"></i></a
+                ></span>
+              </div>
+            </div>
+          </card>
+        </div>
+      </section>
+
+      <section
+        class="contact-me"
+        id="contact-me"
+        data-aos="fade-out"
+        data-aos-duration="10000"
+      >
+        <h2>Get In Touch</h2>
+        <div>
+          <p>
+            I would love to connect with you. My inbox is always open, Feel free
+            to contact me anutime if you have any question or about relevant job
+            updates
+          </p>
+          <ul>
+            <li>
+              <a href="mailto:oktimmy45@gmail.com"
+                ><i class="fa fa-solid fa-envelope"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/Ok_Timmy"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="www.linkedin.com/in/okunola-timilehin-37aa101a0"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/ok-timmy?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa fa-brands fa-github"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <footer>
+        <div>
+          <p>&copy; 2022 Ok_Timmy</p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
