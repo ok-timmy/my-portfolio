@@ -54,7 +54,7 @@ main header .navbar .nav-link {
 
 main header .navbar .nav-link:hover,
 main header .navbar .nav-link:focus {
-  color: #2222f0;
+  color: #3c3cb8;
   text-decoration: none;
 }
 
@@ -74,7 +74,7 @@ main header .navbar.active .nav-link {
 
 main header .navbar.active .nav-link:hover,
 main header .navbar.active .nav-link:focus {
-  color: #2222f0;
+  color: #5d5de2;
   text-decoration: none;
 }
 
@@ -158,7 +158,7 @@ main .desc-left a:hover {
 }
 
 main .desc-left span {
-  color: #2222f0;
+  color: #3939eb;
 }
 
 main .desc-left span .text {
@@ -451,6 +451,18 @@ main .desc-left span .text {
 
 .contact-me div ul a .fa-linkedin {
   color: #2867B2;
+}
+
+.contact-me div ul a:hover .fa-envelope {
+  color: #d8d7d7;
+}
+
+.contact-me div ul a:hover .fa-twitter {
+  color: #168cd4;
+}
+
+.contact-me div ul a:hover .fa-linkedin {
+  color: #114788;
 }
 
 footer {

@@ -78,7 +78,7 @@ main {
         
         .navbar .nav-link:hover,
         .navbar .nav-link:focus {
-            color: rgb(34, 34, 240);
+            color: rgb(60, 60, 184);
             text-decoration: none;
         }
         
@@ -99,7 +99,7 @@ main {
         
         .navbar.active .nav-link:hover,
         .navbar.active .nav-link:focus {
-            color: rgb(34, 34, 240);
+            color: rgb(93, 93, 226);
             text-decoration: none;
         }
         
@@ -167,7 +167,7 @@ main {
             }
     
         span{
-            color: rgb(34, 34, 240);
+            color: rgb(57, 57, 235);
             .text {
                 border-right: white 2px solid;
                 padding-right: 5px;
@@ -387,6 +387,19 @@ main {
                     }
                     .fa-linkedin {
                         color: #2867B2;;
+                    }
+
+                }
+
+                a:hover{
+                    .fa-envelope{
+                        color: rgb(216, 215, 215);
+                    }
+                    .fa-twitter{
+                        color: #168cd4;
+                    }
+                    .fa-linkedin {
+                        color: #114788;;
                     }
                 }
 

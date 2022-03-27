@@ -1,26 +1,3 @@
-// const intro = document.querySelector('.introduction');
-// const body = document.querySelector('body')
-
-// function disappear () {
-//     intro.fadeOut()
-// }
-
-// setTimeout(disappear, 4000);
-
-// const btn = document.getElementById("right-header");
-
-// btn.addEventListener('click', myFunction());
-
-// function myFunction() {
-//     var x = document.getElementById("right-header");
-//     if (!x.classList.contains("responsive")) {
-//       x.classList.remove('right-header');
-//       x.classList.add("responsive");
-//     } else {
-//       x.classList.remove('responsive');
-//       x.classList.add('right-header')
-//     }
-//   }
 
 $(function () {
   $(window).on('scroll', function () {
